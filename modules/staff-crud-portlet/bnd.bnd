@@ -1,0 +1,4 @@
+Bundle-Name: staff-crud-portlet
+Bundle-SymbolicName: staff.crud.portlet
+Bundle-Version: 1.0.0
+Export-Package: staff.crud.portlet.constants

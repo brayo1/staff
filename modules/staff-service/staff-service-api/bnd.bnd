@@ -1,0 +1,10 @@
+Bundle-Name: staff-service-api
+Bundle-SymbolicName: staff.service.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	staff.service.exception,\
+	staff.service.model,\
+	staff.service.service,\
+	staff.service.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../staff-service-service/service.xml

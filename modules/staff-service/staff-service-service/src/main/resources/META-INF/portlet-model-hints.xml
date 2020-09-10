@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="staff.service.model.Staff">
+		<field name="uuid" type="String" />
+		<field name="staffId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="staffName" type="String" />
+		<field name="staffDept" type="String" />
+		<field name="staffOrg" type="String" />
+		<field name="staffAge" type="String" />
+		<field name="staffEmployer" type="String" />
+		<field name="staffDateEmployed" type="String" />
+	</model>
+</model-hints>

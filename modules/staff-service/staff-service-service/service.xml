@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.0.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_0_0.dtd">
+
+<service-builder  package-path="staff.service">
+	<namespace>staf</namespace>
+	<!--<entity data-source="sampleDataSource" local-service="true" name="Staff" remote-service="false" session-factory="sampleSessionFactory" table="staff" tx-manager="sampleTransactionManager uuid="true"">-->
+	<entity local-service="true" name="Staff" remote-service="true" uuid="true">
+
+		<!-- PK fields -->
+
+		<column name="staffId" primary="true" type="long" />
+
+		<!-- Group instance -->
+
+		<column name="groupId" type="long" />
+
+		<!-- Audit fields -->
+
+		<column name="companyId" type="long" />
+		<column name="userId" type="long" />
+		<column name="userName" type="String" />
+		<column name="createDate" type="Date" />
+		<column name="modifiedDate" type="Date" />
+
+		<!-- Other fields -->
+
+		<column name="staffName" type="String" />
+		<column name="staffDept" type="String" />
+		<column name="staffOrg" type="String" />
+		<column name="staffAge" type="String" />
+		<column name="staffEmployer" type="String" />
+		<column name="staffDateEmployed" type="String" />
+
+		
+	</entity>
+</service-builder>
